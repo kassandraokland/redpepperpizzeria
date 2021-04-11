@@ -6,24 +6,6 @@
   border-radius: 5px;
   position: relative;
   display: inline-block;
-  overflow: hidden;
-}
-
-.cta:before {
-  content: "";
-  padding: 10px;
-  background-image: #fff;
-  transform: rotate(45deg);
-  position: absolute;
-  height: 100px;
-  top: -40px;
-  left: -100px;
-  transition: left ease-in-out 1s;
-  opacity: 0.3;
-}
-
-.cta:hover:before {
-  left: 110%;
 }
 
 .cta-header {
@@ -59,4 +41,20 @@
 
 .current {
   text-decoration: underline;
+}
+
+nav a:hover {
+  background-color: #171717;
+}
+
+.cta:hover {
+  background-color: #213b25;
+}
+
+nav a:active, .cta:active {
+  color: grey;
+}
+
+.cta:active {
+
 }
