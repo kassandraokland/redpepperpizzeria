@@ -1,0 +1,52 @@
+li {
+  padding: 2.5px;
+}
+
+.cta-member {
+  background-color: #a20000;
+}
+
+.header-image {
+  background: url("../images/header.jpg") right no-repeat;
+  background-size: cover;
+  min-height: 320px;
+  height: 100vh;
+  position: relative;
+}
+
+.header-image__content {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 275px;
+}
+
+.campaigns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 50px auto;
+  gap: 50px 30px;
+  font-size: 0.6em;
+}
+
+.campaign-wrapper {
+  background-color: #000;
+}
+
+.campaign-text {
+  font-size: 8px;
+  margin: 15px 0px;
+}
+
+.campaign-image {
+  display: block;
+  max-width: 125px;
+  margin: auto;
+  border-radius: 25%;
+}
+
+.member, .student {
+  max-width: 125px;
+  margin: auto;
+}

@@ -1,0 +1,193 @@
+@media (min-width: 350px) {
+  .pizza-list {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .header-image__content {
+    top: 25px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 500px) {
+  
+  .specific__content {
+    max-width: 350px;
+}
+
+  .header-image {
+    min-height: 500px;
+    height: 70vh;
+  }
+
+  .campaigns {
+    max-width: 430px;
+    font-size: 00.8em;
+  }
+
+  .campaign-image {
+    max-width: 200px;
+  }
+
+  .campaign-text {
+    font-size: 12px;
+    margin: 20px;
+  }
+
+  .member, .student {
+    max-width: 160px;
+    margin: auto;
+  }
+
+  .member a, .student a {
+    width: 60px
+  }
+
+  .header-image__content {
+    min-width: 300px;
+    left: 40%;
+    top: 25px;
+  }
+
+  .logo {
+    font-size: 28px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  header {
+    justify-content: start;
+  }
+
+  nav {
+    display: block;
+    position: static;
+  }
+
+  nav li {
+    display: inline-block;
+    padding: 0px;
+  }
+
+  header label {
+    display: none;
+  }
+}
+
+
+@media (min-width: 650px) {
+
+  .specific {
+    margin: 50px auto;
+    gap: 20px;
+  }
+
+  .header-image {
+    min-height: 400px;
+    max-height: 100vh;
+  }
+
+  .cta-large {
+    padding: 10px 60px;
+  }
+
+  .cta-header {
+    left: 15%;
+  }
+
+  .header-image__content {
+    min-width: 325px;
+  }
+}
+
+@media (min-width: 770px) {
+  .form-wrapper {
+    flex-direction: row;
+    gap: 50px;
+    max-width: 800px;
+  }
+
+  .specific__image {
+    max-width: 400px;
+  }
+
+  .header-image {
+    min-height: 500px;
+    height: 70vh;
+  }
+
+  h1 {
+    font-size: 44px;
+  }
+
+  .larger-paragraph {
+    font-size: 22px;
+  }
+
+  .cta-header {
+    margin: 20px 0px;
+  }
+
+  .header-image__content {
+    top: 50px;
+    max-width: 400px;
+    font-size: 1.5em;
+  }
+
+  .campaigns {
+    max-width: 730px;
+    font-size: 1em;
+  }
+
+  .campaign-image {
+    max-width: 300px;
+  }
+
+  .campaign-text {
+    font-size: 18px;
+    margin: 50px 0px;
+  }
+
+  .member, .student {
+    max-width: 275px;
+  }
+
+  .member a, .student a {
+    width: 140px;
+  }
+
+  .cta-member {
+    width: 150px;
+  }
+
+  .pizza-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 800px) {
+  .specific {
+    flex-direction: row;
+    margin: 100px auto;
+  }
+
+  .specific__content {
+    max-width: 300px;
+  }
+
+  .specific__image {
+    max-width: 450px;
+  }
+}
+
+@media (min-width: 1000px) {
+
+  .specific__content {
+    max-width: 350px;
+  }
+}

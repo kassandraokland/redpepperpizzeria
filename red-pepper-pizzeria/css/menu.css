@@ -1,0 +1,46 @@
+.menu {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.pizza-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.pizza {
+  background-color: #171717;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+.menu .pizza {
+  animation: show-pizzas 1s forwards;
+  opacity: 0;
+}
+
+.pizza img {
+  grid-column: -1/1;
+}
+
+.pizza h2,
+.pizza p {
+  grid-column: 1;
+  font-size: 0.9em;
+  margin: 5px;
+  text-align: left;
+}
+
+@keyframes show-pizzas {
+  0% { 
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5; 
+  }
+  100% {
+    opacity: 1; 
+  }
+}

@@ -1,0 +1,62 @@
+.cta {
+  background-color: #216125;
+  color: #fff;
+  font-size: 1em;
+  text-transform: uppercase;
+  border-radius: 5px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.cta:before {
+  content: "";
+  padding: 10px;
+  background-image: #fff;
+  transform: rotate(45deg);
+  position: absolute;
+  height: 100px;
+  top: -40px;
+  left: -100px;
+  transition: left ease-in-out 1s;
+  opacity: 0.3;
+}
+
+.cta:hover:before {
+  left: 110%;
+}
+
+.cta-header {
+  left: 25%;
+  margin: 15px 0px;
+}
+
+.cta-large {
+  padding: 10px 40px;
+}
+
+.cta-small {
+  padding: 8px 20px;
+  font-size: 0.8em;
+  grid-column: 2;
+  grid-row: 2;
+  min-width: 51.2px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.member a, .student a {
+  display: block;
+  margin: auto;
+  width: 50px;
+}
+
+.cta-product {
+  display: block;
+  margin: 25px auto;
+  width: 76.325px;
+}
+
+.current {
+  text-decoration: underline;
+}

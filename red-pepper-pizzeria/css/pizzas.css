@@ -1,0 +1,35 @@
+.specific {
+  width: 85%;
+  max-width: 900px;
+  margin: 25px auto;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.specific > div {
+  margin: auto;
+}
+
+.specific-paragraph {
+  font-size: 1.27em;
+}
+
+.price {
+  text-align: center;
+  font-size: 1.53em;
+  color: #f5d29e;
+}
+
+.specific__content {
+  flex: 1;
+  max-width: 300px;
+}
+
+.specific__image {
+  display: inline-block;
+  flex: 1;
+  margin: auto;
+  max-width: 350px;
+}

@@ -1,0 +1,51 @@
+input,
+select,
+textarea {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  margin: 10px 5px 10px 0px;
+  padding: 10px;
+}
+
+textarea {
+  height: 65%;
+  min-height: 100px;
+}
+
+.order {
+  width: 85%;
+  max-width: 800px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.form-wrapper {
+  width: 90%;
+  max-width: 350px;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-wrapper > * {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.toppings {
+  margin: 20px 10px 0px 0px;
+}
+
+.form-items {
+  margin: 10px 10px 0px 0px;
+}
+
+.crust {
+  margin: 20px 10px 20px 0px;
+}
+
+.form-items > * {
+  padding-right: 10px;
+}

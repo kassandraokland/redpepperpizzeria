@@ -1,0 +1,104 @@
+@import "imports/links.css";
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  margin: 0px;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-color: #202020;
+  color: #fff;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+header a {
+  color: #fff;
+  padding: 10px;
+}
+
+nav {
+  margin-left: 25px;
+  display: none;
+  position: fixed;
+  top: 45px;
+  background-color: #000;
+  z-index: 1000;
+  right: 0px;
+}
+
+nav ul {
+  padding: 0px;
+}
+
+nav li {
+  display: block;
+  padding: 20px 30px;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
+
+header, 
+footer {
+  background-color: #000;
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #f09b1f;
+  font-size: 28px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.logo, 
+h1 {
+  font-family: capucine-web, Georgia, "Segoe UI", Tahoma, Geneva, sans-serif;
+  font-weight: 400;
+}
+
+.logo {
+  color: #a20000;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.larger-paragraph {
+  font-size: 15px;
+  color: #f5d29e;
+}
+
+h2 {
+  color: #f09b1f;
+  text-align: center;
+  margin: 0px;
+}
+
+.caps {
+  text-transform: uppercase;
+}
